@@ -19,6 +19,7 @@
     <target name="jar">
         <jar destfile="${build.dir}/${app.name}" basedir="${build.dir}/classes">
             <manifest>
+                <attribute name
                 <attribute name="Main-Class" value="demo.starwars.Main"/>
             </manifest>
         </jar>
